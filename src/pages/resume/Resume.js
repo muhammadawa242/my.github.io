@@ -6,7 +6,7 @@ const Resume = ({ brand }) => {
   return (
     <section className="resume container">
       <PageHeader title="Resume" description="Uncover my expertise" />
-            <a target="_blank" href="https://docs.google.com/document/d/1OhWW6ZFwG3tUn-ctitB0TFT5t6Z6kYFaZyCV48o2MT8/edit?usp=sharing&ouid=110563412392633040581&rtpof=true&sd=true">
+            <a target="_blank" href="https://drive.google.com/file/d/1WlzGwDgHl9uY7v9BqF8J4ISp8NP_qSsu/view">
                 <motion.button
                 className="btn"
                 // Apply scale animation on hover
