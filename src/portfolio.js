@@ -256,8 +256,8 @@ const bigProjects = {
       projectDesc: "A dental disease prediction and treatment suggestion based web application developed for dental clinics to help with patient treatment and planning (Final Year Project)",
       footerLink: [
         {
-          name: "GitHub",
-          url: "https://github.com/muhammadawa242"
+          name: "Visit Website",
+          url: "https://predentosis.vercel.app/"
         }
       ]
     },
