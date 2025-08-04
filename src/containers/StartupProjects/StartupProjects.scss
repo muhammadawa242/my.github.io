@@ -2,8 +2,10 @@
 
 .card-image {
   max-width: 100%;
-  height: auto;
+  height: 200px;
   width: 250px;
+  object-fit: cover;
+  object-position: center;
 }
 .card-title {
   color: $titleColor;
@@ -51,7 +53,7 @@
 }
 .project-image {
   position: relative;
-  height: 250px;
+  height: 200px;
   overflow: hidden;
   display: flex;
   justify-content: center;
