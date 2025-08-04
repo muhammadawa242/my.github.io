@@ -359,12 +359,12 @@ const achievementSection = {
       title: "CS50X - Introduction to Computer Science",
       subtitle:
         "Completed Harvard's CS50X course covering fundamentals of computer science and programming.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/harvardLogo.png"),
       imageAlt: "CS50X Certificate",
       footerLink: [
         {
-          name: "Course Details",
-          url: "https://cs50.harvard.edu/x/"
+          name: "View Certificate",
+          url: "https://certificates.cs50.io/27d1b753-25d3-42c4-a6e2-3955a2b5f965.png?size=letter"
         }
       ]
     },
@@ -372,24 +372,77 @@ const achievementSection = {
       title: "CS50P - Introduction to Programming with Python",
       subtitle:
         "Completed Harvard's CS50P course focusing on Python programming and software development.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/harvardLogo.png"),
       imageAlt: "CS50P Certificate",
       footerLink: [
         {
-          name: "Course Details",
-          url: "https://cs50.harvard.edu/python/"
+          name: "View Certificate",
+          url: "https://certificates.cs50.io/a795e819-0156-4b9f-b057-3f130338ee50.pdf?size=letter"
         }
       ]
     },
     {
-      title: "Machine Learning & Deep Learning",
-      subtitle: "Completed Neural Networks and Deep Learning, Improving Deep Neural Networks courses",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "ML Certificate",
+      title: "Foundations of Project Management",
+      subtitle:
+        "Completed Google's introductory course on project management principles and practices via Coursera.",
+      image: require("./assets/images/google.jpeg"),
+      imageAlt: "Project Management Certificate",
       footerLink: [
         {
-          name: "Course Details",
-          url: "https://www.coursera.org/"
+          name: "View Certificate",
+          url: "https://coursera.org/verify/ZR4LES7CGDHC"
+        }
+      ]
+    },
+    {
+      title: "SQL Certificate",
+      subtitle:
+        "Earned a certificate from HackerRank for demonstrating proficiency in basic SQL skills.",
+      image: require("./assets/images/hackerrank.webp"),
+      imageAlt: "SQL Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.hackerrank.com/certificates/863c36886e5f"
+        }
+      ]
+    },
+    {
+      title: "Neural Networks and Deep Learning",
+      subtitle:
+        "Part of the Deep Learning Specialization by deeplearning.ai, covering the foundations of neural networks.",
+      image: require("./assets/images/deeplearn.png"),
+      imageAlt: "Neural Networks Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/verify/8RJ4XKLAUZLK"
+        }
+      ]
+    },
+    {
+      title: "Improving Deep Neural Networks",
+      subtitle:
+        "Part of the Deep Learning Specialization, focusing on hyperparameter tuning, regularization, and optimization.",
+      image: require("./assets/images/deeplearn.png"),
+      imageAlt: "Deep Learning Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://coursera.org/verify/H3QQC3XFB737"
+        }
+      ]
+    },
+    {
+      title: "MS Word(2016)",
+      subtitle:
+        "Achieved Microsoft Office Specialist certification for advanced proficiency in Microsoft Word 2016.",
+      image: require("./assets/images/ms.png"),
+      imageAlt: "MS Word Certificate",
+      footerLink: [
+        {
+          name: "View Certificate",
+          url: "https://www.credly.com/badges/5a2466dd-7591-49a8-abf8-975788650f9a?source=linked_in_profile"
         }
       ]
     }
